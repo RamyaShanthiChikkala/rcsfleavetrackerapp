@@ -1,18 +1,8 @@
-# Salesforce DX Project: Next Steps
+Problem:
+The goal is to create a leave request tracker app in Salesforce. The app should allow logged-in users to apply for and track their leaves. The project is not urgent and is focused on developing the end-to-end flow.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Proposal:
+The project involves building a Salesforce app for leave tracking. Mockups for leave tracking are available, and success will be measured based on the ability to log and track requests. As of now, scaling is not planned, and the project is primarily for learning purposes.
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Plan:
+The plan is to complete the project by the end of the day, with an extra day allocated for improvements if needed. Assumptions for the project include allowing users to create and view leave requests for themselves, not allowing requests for past dates, providing the option to edit pending requests, and color-coding requests as approved (green) or rejected (yellow). The project involves implementing a Leave Requests tab that contains requests from direct reportees. Reference materials and resources are provided for metadata, modal pop-ups, and record editing. The implementation has been completed, and bug fixes have been addressed.
